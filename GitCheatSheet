@@ -1,0 +1,25 @@
+#Git Cheat Sheet
+
+git branch
+- This will generate a list of branches associated with the repository
+
+git checkout -b branchname
+- This is used to checkout an existing branch associated the repository
+- In my job we generally create branches in jira then use the checkout command locally to access that branch.
+
+git commit
+- This allows changes to committed to the current branch
+git commit -m "message"
+- Same as above but it allows the committer to add a message to the commit to refer back to.
+
+git status
+- This will generate a list of all files and their status including staging and tracking
+
+git init repositoryname
+- this creates a blank git repository
+
+git clone repositorylocation
+- clones the repository at that location to the local computer
+
+
+
