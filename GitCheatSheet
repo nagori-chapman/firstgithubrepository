@@ -9,8 +9,15 @@ git checkout -b branchname
 
 git commit
 - This allows changes to committed to the current branch
+
 git commit -m "message"
 - Same as above but it allows the committer to add a message to the commit to refer back to.
+
+git push
+- This will "push" the commit to the branch in git rather than just remaining locally
+
+git log
+- This will generate a list of the commits that occurred in the current branch 
 
 git status
 - This will generate a list of all files and their status including staging and tracking
@@ -21,5 +28,10 @@ git init repositoryname
 git clone repositorylocation
 - clones the repository at that location to the local computer
 
+git stash
+- This saves changes for a later commit
+- In my job I use this when I want switch branches but don't want commit anything yet
 
+git pull
+- This will update any changes that were made in the working branch that another person may have made
 
